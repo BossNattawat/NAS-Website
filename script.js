@@ -1,6 +1,6 @@
 function updateMenuDisplay() {
     const menu = document.querySelector('.menu');
-    if (window.innerWidth > 851) {
+    if (window.innerWidth > 950) {
         menu.style.display = 'flex';
     } else {
         menu.style.display = 'none';
